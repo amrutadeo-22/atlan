@@ -1,0 +1,253 @@
+
+        [
+    {
+        "id": 1,
+        "name": "GPT-3.5",
+        "description": "The third version of OpenAI's Generative Pre-trained Transformer, GPT-3.5, is an unsupervised autoregressive transformer language model, and it has 175 billion parameters, making it the largest publicly known language model to date.",
+        "accuracy": 0.95,
+        "precision": 0.95,
+        "recall": 0.95,
+        "libraries_used": ["transformers", "Hugging Face"],
+        "ratings": 5
+    },
+    {
+        "id": 2,
+        "name": "BERT",
+        "description": "Bidirectional Encoder Representations from Transformers (BERT) is a transformer-based machine learning technique for natural language processing. BERT is designed to pre-train deep bidirectional representations by jointly conditioning on both left and right context in all layers.",
+        "accuracy": 0.92,
+        "precision": 0.92,
+        "recall": 0.92,
+        "libraries_used": ["transformers", "Hugging Face"],
+        "ratings": 4.8
+    },
+    {
+        "id": 3,
+        "name": "YOLO",
+        "description": "You Only Look Once (YOLO) is a real-time object detection system that can detect objects in images or video frames. It has gained popularity due to its speed and accuracy.",
+        "accuracy": 0.89,
+        "precision": 0.89,
+        "recall": 0.89,
+        "libraries_used": ["darknet"],
+        "ratings": 4.6
+    },
+    {
+        "id": 4,
+        "name": "ResNet",
+        "description": "Residual Networks (ResNets) are a family of feed-forward neural networks designed to deal with the vanishing gradient problem by introducing skip connections, or shortcuts, that allow gradients to flow back to earlier layers.",
+        "accuracy": 0.93,
+        "precision": 0.93,
+        "recall": 0.93,
+        "libraries_used": ["PyTorch"],
+        "ratings": 4.9
+    },
+    {
+        "id": 5,
+        "name": "MobileNet",
+        "description": "MobileNet is a deep convolutional neural network architecture designed for mobile and embedded vision applications. It has a smaller memory footprint and faster processing times compared to larger models.",
+        "accuracy": 0.91,
+        "precision": 0.91,
+        "recall": 0.91,
+        "libraries_used": ["TensorFlow"],
+        "ratings": 4.7
+    },
+    {
+        "id": 6,
+        "name": "VGG16",
+        "description": "VGG16 is a convolutional neural network architecture that is well-known for its simplicity and effectiveness. It consists of 16 convolutional layers and is widely used for image classification tasks.",
+        "accuracy": 0.94,
+        "precision": 0.94,
+        "recall": 0.94,
+        "libraries_used": ["Keras"],
+        "ratings": 4.9
+    },
+    {
+        "id": 7,
+        "name": "InceptionV3",
+        "description": "InceptionV3 is a convolutional neural network architecture developed by Google. It is known for its efficient use of computational resources and high accuracy in image classification tasks.",
+        "accuracy": 0.93,
+        "precision": 0.93,
+        "recall": 0.93,
+        "libraries_used": ["TensorFlow"],
+        "ratings": 4.8
+    },
+    {
+        "id": 8,
+        "name": "Xception",
+        "description": "Xception is an extension of the Inception architecture that replaces the standard Inception modules with depthwise separable convolutions, which reduces the number of parameters and computation needed while increasing the accuracy of the model.",
+        "accuracy": 0.94,
+        "precision": 0.94,
+        "recall": 0.94,
+        "libraries_used": ["TensorFlow"],
+        "ratings": 4.9
+    },
+    {
+        "id": 9,
+        "name": "GPT-2",
+        "description": "Generative Pre-trained Transformer 2 (GPT-2) is a transformer-based machine learning model developed by OpenAI. It is designed to generate human-like text and can be fine-tuned for various natural language processing tasks.",
+        "accuracy": 0.93,
+        "precision": 0.93,
+        "recall": 0.93,
+        "libraries_used": ["transformers", "Hugging Face"],
+        "ratings": 4.7
+    },
+    {
+        "id": 10,
+        "name": "NASNet",
+        "description": "Neural Architecture Search Network (NASNet) is a convolutional neural network architecture designed for mobile devices. It uses neural architecture search to find optimal network architectures for specific tasks.",
+        "accuracy": 0.92,
+        "precision": 0.92,
+        "recall": 0.92,
+        "libraries_used": ["TensorFlow"],
+        "ratings": 4.6
+    },
+    {
+        "id": 11,
+        "name": "DenseNet",
+        "description": "DenseNet is a convolutional neural network architecture that connects each layer to every other layer in a feed-forward fashion. This connectivity pattern improves the flow of gradients and reduces the number of parameters.",
+        "accuracy": 0.93,
+        "precision": 0.93,
+        "recall": 0.93,
+        "libraries_used": ["PyTorch"],
+        "ratings": 4.8
+    },
+    {
+        "id": 12,
+        "name": "MAML",
+        "description": "Model-Agnostic Meta-Learning (MAML) is a machine learning algorithm that learns to learn from few examples. It can adapt to new tasks quickly, making it suitable for applications such as few-shot learning and reinforcement learning.",
+        "accuracy": 0.91,
+        "precision": 0.91,
+        "recall": 0.91,
+        "libraries_used": ["PyTorch"],
+        "ratings": 4.6
+    },
+    {
+        "id": 13,
+        "name": "Pix2Pix",
+        "description": "Pix2Pix is a generative adversarial network (GAN) that learns to map input images to output images. It is commonly used for image-to-image translation tasks such as image colorization and style transfer.",
+        "accuracy": 0.90,
+        "precision": 0.90,
+        "recall": 0.90,
+        "libraries_used": ["PyTorch"],
+        "ratings": 4.5
+    },
+    {
+        "id": 14,
+        "name": "DeepLab",
+        "description": "DeepLab is a convolutional neural network architecture designed for semantic image segmentation. It can label every pixel in an image with the corresponding class, making it useful for tasks such as object detection and scene understanding.",
+        "accuracy": 0.92,
+        "precision": 0.92,
+        "recall": 0.92,
+        "libraries_used": ["TensorFlow"],
+        "ratings": 4.7
+    },
+    {
+        "id": 15,
+        "name": "WaveNet",
+        "description": "WaveNet is a deep generative model of raw audio waveforms. It is capable of generating high-quality audio samples that sound more natural and realistic than previous models.",
+        "accuracy": 0.91,
+        "precision": 0.91,
+        "recall": 0.91,
+        "libraries_used": ["tensorflow", "keras"],
+        "ratings": 4.6
+    },
+    {
+        "id": 16,
+        "name": "OpenAI GPT",
+        "description": "OpenAI GPT is a transformer-based model developed by OpenAI. It is designed to generate human-like text and can be fine-tuned for various natural language processing tasks.",
+        "accuracy": 0.92,
+        "precision": 0.92,
+        "recall": 0.92,
+        "libraries_used": ["transformers", "Hugging Face"],
+        "ratings": 4.7
+    },
+    {
+        "id": 17,
+        "name": "DeepDream",
+        "description": "DeepDream is a computer vision technique that uses convolutional neural networks to generate images that appear dream-like. It works by modifying the input image to maximize the activation of specific neurons in the network.",
+        "accuracy": 0.90,
+        "precision": 0.90,
+        "recall": 0.90,
+        "libraries_used": ["tensorflow", "keras"],
+        "ratings": 4.5
+    },
+    {
+        "id": 18,
+        "name": "CycleGAN",
+        "description": "CycleGAN is a generative adversarial network (GAN) that learns to map images from one domain to another in an unsupervised manner. It can be used for tasks such as style transfer and image-to-image translation.",
+        "accuracy": 0.89,
+        "precision": 0.89,
+        "recall": 0.89,
+        "libraries_used": ["tensorflow", "keras"],
+        "ratings": 4.5
+    },
+    {
+        "id": 19,
+        "name": "UNet",
+        "description": "UNet is a convolutional neural network architecture designed for biomedical image segmentation tasks. It consists of a contracting path for capturing context and a symmetric expanding path for precise localization.",
+        "accuracy": 0.92,
+        "precision": 0.92,
+        "recall": 0.92,
+        "libraries_used": ["tensorflow", "keras"],
+        "ratings": 4.6
+    },
+    {
+        "id": 20,
+        "name": "WaveGlow",
+        "description": "WaveGlow is a flow-based generative model that can synthesize high-quality speech waveforms. It is capable of generating speech samples that sound more natural and realistic than previous models.",
+        "accuracy": 0.92,
+        "precision": 0.92,
+        "recall": 0.92,
+        "libraries_used": ["PyTorch"],
+        "ratings": 4.8
+    },
+    {
+        "id": 21,
+        "name": "DeepMind AlphaGo",
+        "description": "AlphaGo is a computer program that plays the board game Go. It was developed by DeepMind Technologies, a British AI company acquired by Google in 2014.",
+        "accuracy": 0.95,
+        "precision": 0.95,
+        "recall": 0.95,
+        "libraries_used": ["DeepMind"],
+        "ratings": 5
+    },
+    {
+        "id": 22,
+        "name": "DeepMind AlphaZero",
+        "description": "AlphaZero is a computer program that plays the board games Go, chess, and shogi. It was developed by DeepMind Technologies, a British AI company acquired by Google in 2014.",
+        "accuracy": 0.96,
+        "precision": 0.96,
+        "recall": 0.96,
+        "libraries_used": ["DeepMind"],
+        "ratings": 5
+    },
+    {
+        "id": 23,
+        "name": "DeepMind AlphaFold",
+        "description": "AlphaFold is a deep learning system developed by DeepMind Technologies for predicting the 3D structure of proteins from their amino acid sequences. It won the CASP13 competition in 2018.",
+        "accuracy": 0.98,
+        "precision": 0.98,
+        "recall": 0.98,
+        "libraries_used": ["DeepMind"],
+        "ratings": 5
+    },
+    {
+        "id": 24,
+        "name": "DeepMind AlphaStar",
+        "description": "AlphaStar is a computer program developed by DeepMind Technologies for playing the real-time strategy game StarCraft II. It defeated top professional players in 2019.",
+        "accuracy": 0.97,
+        "precision": 0.97,
+        "recall": 0.97,
+        "libraries_used": ["DeepMind"],
+        "ratings": 5
+    },
+    {
+        "id": 25,
+        "name": "OpenAI Codex",
+        "description": "OpenAI Codex is an AI model developed by OpenAI that is capable of writing code and generating code snippets in multiple programming languages. It was trained on a large dataset of code from GitHub.",
+        "accuracy": 0.90,
+        "precision": 0.90,
+        "recall": 0.90,
+        "libraries_used": ["OpenAI"],
+        "ratings": 4.5
+    }
+]
